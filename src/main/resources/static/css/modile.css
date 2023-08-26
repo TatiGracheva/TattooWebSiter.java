@@ -1,0 +1,63 @@
+@media (max-width: 600px){
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+        align-items: center;
+    }
+    .infoMaks div ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start; 
+    }
+    .infoMaks div ul li{
+    list-style-type: square;
+    flex-basis: 100%;
+    margin: 10px 0;
+    font-size: 2.5vw;
+    }
+    .photos div {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+        align-items: center;
+    }
+    header {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    header h1{
+        margin: 0;
+        font-size: 3vw;
+        padding-bottom: 4%;
+    }
+    header h2{
+        margin: 0;
+        font-size: 5vw;
+    }
+    .photos img {
+    width: 55vw;
+    padding: 10px 0 0 0;
+    }
+    .avatar img{
+        width: 55vw;
+        padding: 0;
+    }
+    .navbar .container{
+        max-width: inherit;
+        background-color: black;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .avatar{
+        padding: 30px 0 0 0;
+    }
+    section div {
+        display: flex;
+        align-items:center;
+        font-size: 1.7Vmax;
+        margin: 0;
+    }
+}
